@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import PesquisarCidade from "../../components/PesquisarCidade";
 import './index.css'
 
@@ -28,7 +28,7 @@ export default function Listar() {
               <Typography> Ação </Typography>
             </Grid>
 
-            <input className="linha" readOnly />
+            <Container className="linha"/>
 
           </Grid>
         </Box>
